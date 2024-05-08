@@ -18,7 +18,7 @@ mongoose.connect(
 mongoose.connection;
 
 // subscribers 배열 생성 (5개 이상)
-var subscribers = [
+let subscribers = [
   {
     name: "Aaron",
     email: "aaron@aaron.kr",
